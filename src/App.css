@@ -1,0 +1,153 @@
+/*--------INICIO PRESENTACION--------*/
+
+div.presentacion-container{
+  background-color: rgb(97, 30, 135);
+  width: 95%;
+  margin: auto;
+  top: 2%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  animation-name: presentacion-move;
+  animation-duration: 3s;
+
+}
+
+@keyframes presentacion-move {
+  from{
+    top: -100vh;
+  }
+
+  20%{
+    background-color: rgb(163, 79, 212);
+  }
+
+  50%{
+    background-color: rgb(139, 58, 186);
+  }
+
+  75%{
+    background-color: rgb(118, 43, 162);
+  }
+
+  90%{
+    background-color: rgb(97, 30, 135);
+  }
+
+  to{
+    top: 2%;
+  }
+}
+
+h1.presentacion-titulo{
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 0.5%;
+  animation-name: presentacion-titulo;
+  animation-duration: 3s;
+}
+
+@keyframes presentacion-titulo {
+  from{
+    font-size: 1em;
+  }
+
+  to{
+    font-size: 3em;
+  }
+}
+
+.container-subtitulo {
+  margin-bottom: 4em;
+}
+
+h2.presentacion-subtitulo{
+  font-size: 1.5em;
+  font-style: italic;
+  color: rgb(200, 197, 197);
+  margin: auto;
+  margin-top: 1vh;
+  animation-name: presentacion-subtitulo;
+  animation-duration: 2s;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+
+}
+
+@keyframes presentacion-subtitulo {
+  from{
+    left: 200vh;
+  }
+  to{
+    left: 0vh;
+  }
+  
+}
+
+.container-parrafo {
+  padding-top: 1vh;
+  padding-bottom: 7vh;
+}
+
+p.presentacion-parrafo{
+  font-size: 1.5em;
+  color: rgb(200, 197, 197);
+  margin: auto;
+  margin-top: 2em;
+  animation-name: presentacion-parrafo;
+  animation-duration: 4s;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+@keyframes presentacion-parrafo {
+  from{
+    left: -100vh;
+  }
+  to{
+    left: 0;
+  }
+  
+  
+}
+
+.container-boton {
+  margin-top: 25vh;
+}
+
+button.presentacion-boton{
+  background-color: inherit;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+  animation-name: presentacion-boton;
+  animation-duration: 4s;
+}
+
+@keyframes presentacion-boton {
+  from{
+    font-size: 0px;
+  }
+  to{
+    font-size: 1.5em;
+  }
+  
+}
+
+button.presentacion-boton:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(97, 30, 135);
+}
