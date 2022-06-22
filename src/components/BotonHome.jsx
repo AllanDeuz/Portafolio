@@ -6,7 +6,7 @@ const BotonHome = () => {
 
     <div className='container-boton-home'>
         <Link to='/'>
-            <button className='boton-home'>Home</button>
+          <button className='boton-home'>Inicio</button>
         </Link>
     </div>
 

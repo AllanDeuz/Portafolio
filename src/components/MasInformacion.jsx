@@ -1,5 +1,6 @@
 import React from 'react'
 import BotonHome from './BotonHome'
+import { Link } from 'react-router-dom'
 
 const MasInformacion = () => {
   return (
