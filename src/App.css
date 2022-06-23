@@ -13,6 +13,9 @@ div.presentacion-container{
   text-align: center;
   animation-name: presentacion-move;
   animation-duration: 2s;
+  -webkit-box-shadow: 11px 11px 5px 0px rgb(122, 46, 167);
+  -moz-box-shadow: 11px 11px 5px 0px rgb(122, 46, 167);
+  box-shadow: 11px 11px 5px 0px rgb(122, 46, 167);
 }
 
 @keyframes presentacion-move {
@@ -163,73 +166,7 @@ div.contacto {
   right: 0;
   text-align: center;
   animation-name: Down-Up;
-  animation-duration: 2s;
-}
-
-h1.contacto-titulo{
-  color: rgb(219, 224, 229);
-  background-color: inherit;
-}
-
-h3.linkedin{
-  margin: auto;
-  animation-name: Down-Up;
-  animation-duration: 3s;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  margin-top: 25vh;
-  color: rgb(80, 173, 245);
-  font-size: 2em;
-  background-color: inherit;
-}
-
-h3.linkedin:hover{
-  color: rgb(107, 190, 254);
-}
-
-h3.correo{
-  margin: auto;
-  animation-name: Down-Up;
-  animation-duration: 3s;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  margin-top: 30vh;
-  color: rgb(237, 127, 30);
-  font-size: 1.1em;
-  margin-top: 35vh;
-  background-color: inherit;
-}
-
-h3.correo:hover{
-  color: rgb(255, 153, 65);
-}
-
-h3.linkedin::before{
-  content: "Linkedin";
-}
-
-h3.correo::before{
-  content: "tecontacto.programador@gmail.com";
-}
-
-h1.contacto-titulo{
-  font-size: 3em;
-  margin: auto;
-  margin-top: 1vh;
-  animation-name: Down-Up;
-  animation-duration: 3s;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  margin-bottom: 2vh;
+  animation-duration: 1.5s;
 }
 
 @keyframes Down-Up {
@@ -256,6 +193,63 @@ h1.contacto-titulo{
   to{
     top: 1vh;
   }
+}
+
+h1.contacto-titulo{
+  color: rgb(219, 224, 229);
+  background-color: inherit;
+  font-size: 3em;
+  margin: auto;
+  margin-top: 1vh;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-bottom: 2vh;
+}
+
+h3.linkedin{
+  margin: auto;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 25vh;
+  color: rgb(80, 173, 245);
+  font-size: 2em;
+  background-color: inherit;
+}
+
+h3.linkedin:hover{
+  color: rgb(107, 190, 254);
+}
+
+h3.correo{
+  margin: auto;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 30vh;
+  color: rgb(237, 127, 30);
+  font-size: 1.1em;
+  margin-top: 35vh;
+  background-color: inherit;
+}
+
+h3.correo:hover{
+  color: rgb(255, 153, 65);
+}
+
+h3.linkedin::before{
+  content: "Linkedin";
+}
+
+h3.correo::before{
+  content: "tecontacto.programador@gmail.com";
 }
 
 .container-boton {
@@ -300,7 +294,7 @@ button.boton-home:hover{
 .informacion-container{
   background-color: rgb(137, 67, 178);
   animation-name: DerIzq;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -354,6 +348,9 @@ li.skills-item:hover{
   background-color: rgb(200, 191, 191);
   color: rgb(97, 30, 135);
   cursor: pointer;
+  -webkit-box-shadow: 6px 6px 5px 0px rgb(84, 20, 121);
+  -moz-box-shadow: 6px 6px 5px 0px rgb(84, 20, 121);
+  box-shadow: 6px 6px 5px 0px rgb(84, 20, 121);
 }
 
 div.boton-home{
