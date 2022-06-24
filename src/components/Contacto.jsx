@@ -4,18 +4,23 @@ import BotonHome from './BotonHome'
 const Contacto = () => {
   return (
     <div>
-      <div className='contacto'>
-        <div className='contacto-elemento'><h1 className='contacto-titulo'>Contacto</h1></div>
+      <div className='contacto'>  
         <div className='contacto-elemento'>
-          <a href='https://www.linkedin.com/in/juan-jose-gonzalez-gonzalez-b9a8b817b/' target ='_blank'>
+
+          <a href='https://github.com/AllanDeuz' target='_blank' rel='noopener noreferrer'>
+            <h3 className='github'></h3>
+          </a>
+
+          <a href='https://www.linkedin.com/in/allan-arroyo-programador/' target ='_blank'>
             <h3 className='linkedin'></h3>
           </a>
-        </div>
-        <div className='contacto-elemento'>
+
           <a href='mailto:tecontacto.programador@gmail.com'>
             <h3 className='correo'></h3>
           </a>
+
         </div>
+
       </div>
 
       <BotonHome/>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import BotonHome from './BotonHome'
 
 const MasInformacion = () => {
@@ -29,11 +30,14 @@ const MasInformacion = () => {
             <li className='skills-item'>Bootstrap</li>
           </ul>
 
-          <h3 className='skills-titulo'>Otros</h3>
+          <h3 className='skills-titulo'>Otros Conocimientos</h3>
           <ul className='skills-lista'>
             <li className='skills-item'>GitHub</li>
             <li className='skills-item'>Modelamiento de bases de datos</li>
-            <li className='skills-item'>Conocimiento matematico</li>
+            <li className='skills-item'>Conocimiento matemático</li>
+          </ul>
+          <ul className='skills-lista'>
+            <li className='skills-item dos'><Link to='/aclaraciones'><button className='aclaracion-boton'>Aclaraciones</button></Link></li>
           </ul>
         </div>
       </div>

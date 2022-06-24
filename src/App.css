@@ -1,4 +1,7 @@
 /*-------------INICIO PRESENTACION-------------*/
+body{
+  background-color: rgb(46, 14, 65);
+}
 
 div.presentacion-container{
   background-color: rgb(97, 30, 135);
@@ -13,9 +16,17 @@ div.presentacion-container{
   text-align: center;
   animation-name: presentacion-move;
   animation-duration: 2s;
-  -webkit-box-shadow: 11px 11px 5px 0px rgb(122, 46, 167);
-  -moz-box-shadow: 11px 11px 5px 0px rgb(122, 46, 167);
-  box-shadow: 11px 11px 5px 0px rgb(122, 46, 167);
+  -webkit-box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
+  -moz-box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
+  box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
+  border-radius: 10%;
+  transition: all 0.5s ease
+}
+
+div.presentacion-container:hover{
+  -webkit-box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
+  -moz-box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
+  box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
 }
 
 @keyframes presentacion-move {
@@ -46,11 +57,12 @@ div.presentacion-container{
 
 h1.presentacion-titulo{
   font-size: 3em;
-  color: rgb(255, 255, 255);
+  color: rgb(194, 194, 194);
   margin: auto;
   margin-top: 0.5%;
   animation-name: presentacion-titulo;
   animation-duration: 3s;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.639);
 }
 
 @keyframes presentacion-titulo {
@@ -80,7 +92,7 @@ h2.presentacion-subtitulo{
   margin-right: auto;
   left: 0;
   right: 0;
-
+  text-shadow: 1px 1px 1px rgba(44, 44, 44, 0.537);
 }
 
 @keyframes presentacion-subtitulo {
@@ -100,7 +112,7 @@ h2.presentacion-subtitulo{
 
 p.presentacion-parrafo{
   font-size: 1.5em;
-  color: rgb(200, 197, 197);
+  color: rgb(245, 247, 138);
   margin: auto;
   margin-top: 2em;
   animation-name: presentacion-parrafo;
@@ -110,6 +122,7 @@ p.presentacion-parrafo{
   margin-right: auto;
   left: 0;
   right: 0;
+  text-shadow: 1px 1px 1px rgba(192, 187, 55, 0.639);
 }
 
 @keyframes presentacion-parrafo {
@@ -167,6 +180,17 @@ div.contacto {
   text-align: center;
   animation-name: Down-Up;
   animation-duration: 1.5s;
+  -webkit-box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
+  -moz-box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
+  box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
+  border-radius: 10%;
+  transition: all 0.5s ease
+}
+
+div.contacto:hover{
+  -webkit-box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
+  -moz-box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
+  box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
 }
 
 @keyframes Down-Up {
@@ -195,20 +219,6 @@ div.contacto {
   }
 }
 
-h1.contacto-titulo{
-  color: rgb(219, 224, 229);
-  background-color: inherit;
-  font-size: 3em;
-  margin: auto;
-  margin-top: 1vh;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  margin-bottom: 2vh;
-}
-
 h3.linkedin{
   margin: auto;
   position: absolute;
@@ -216,14 +226,17 @@ h3.linkedin{
   margin-right: auto;
   left: 0;
   right: 0;
-  margin-top: 25vh;
+  margin-top: 16vh;
   color: rgb(80, 173, 245);
   font-size: 2em;
   background-color: inherit;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 h3.linkedin:hover{
   color: rgb(107, 190, 254);
+  /*hacer que su sombra sea mas grande*/
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 h3.correo{
@@ -236,12 +249,33 @@ h3.correo{
   margin-top: 30vh;
   color: rgb(237, 127, 30);
   font-size: 1.1em;
-  margin-top: 35vh;
+  margin-top: 32vh;
   background-color: inherit;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 h3.correo:hover{
   color: rgb(255, 153, 65);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+h3.github{
+  margin: auto;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 2vh;
+  color: rgb(197, 193, 193);
+  font-size: 2em;
+  background-color: inherit;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+h3.github:hover{
+  color: rgb(225, 225, 225);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 h3.linkedin::before{
@@ -250,6 +284,10 @@ h3.linkedin::before{
 
 h3.correo::before{
   content: "tecontacto.programador@gmail.com";
+}
+
+h3.github::before{
+  content: "Github";
 }
 
 .container-boton {
@@ -286,7 +324,6 @@ button.boton-home{
 button.boton-home:hover{
   background-color:rgb(214, 217, 219);
   color: rgb(92, 0, 142);
-  border: 1px solid rgb(92, 0, 142);
 }
 
 /*-------------INICIO MAS INFO-------------*/
@@ -326,6 +363,7 @@ h3.skills-titulo {
   text-align: center;
   color: rgb(255, 255, 255);
   font-size: 2em;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 ul.skills-lista {
@@ -353,6 +391,33 @@ li.skills-item:hover{
   box-shadow: 6px 6px 5px 0px rgb(84, 20, 121);
 }
 
+li.skills-item.dos:hover{
+  background-color: rgb(36, 0, 50);
+  color: rgb(97, 30, 135);
+  cursor: pointer;
+  -webkit-box-shadow: 6px 6px 5px 0px rgb(84, 20, 121);
+  -moz-box-shadow: 6px 6px 5px 0px rgb(84, 20, 121);
+  box-shadow: 6px 6px 5px 0px rgb(84, 20, 121);
+}
+
 div.boton-home{
-  margin-top: -38vh;
+  margin-top: -39vh;
+}
+
+button.aclaracion-boton{
+  background-color: inherit;
+  color: rgb(227, 224, 44);
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+
+/*-------------INICIO ACLARACIONES-------------*/
+
+p.aclaraciones{
+  color : rgb(209, 203, 99);
+  font-size: 1.5em;
 }
