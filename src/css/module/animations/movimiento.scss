@@ -1,0 +1,19 @@
+@keyframes Up-Down{
+    from{
+      top: -100vh;
+    }
+  
+    to{
+      top: 2%;
+    }
+  }
+  
+  @keyframes Down-Up{
+    from{
+      top: 100vh;
+    }
+  
+    to{
+      top: 2%;
+    }
+  }
