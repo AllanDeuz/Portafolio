@@ -278,18 +278,6 @@ h3.github:hover{
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
-h3.linkedin::before{
-  content: "Linkedin";
-}
-
-h3.correo::before{
-  content: "tecontacto.programador@gmail.com";
-}
-
-h3.github::before{
-  content: "Github";
-}
-
 .container-boton {
   margin-top: 30vh;
   margin-left: 3vw;
