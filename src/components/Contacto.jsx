@@ -7,11 +7,11 @@ const Contacto = () => {
       <div className='contacto'>  
         <div className='contacto-elemento'>
 
-          <a href='https://github.com/AllanDeuz' target='_blank' rel='noopener noreferrer'>
+          <a href='https://github.com/AllanDeuz' target="_blank">
             <h3 className='github'></h3>
           </a>
 
-          <a href='https://www.linkedin.com/in/allan-arroyo-programador/' target ='_blank'>
+          <a href='https://www.linkedin.com/in/allan-arroyo-programador/' target="_blank">
             <h3 className='linkedin'></h3>
           </a>
 
