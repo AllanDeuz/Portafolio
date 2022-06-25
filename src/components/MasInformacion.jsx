@@ -25,15 +25,14 @@ const MasInformacion = () => {
           <ul className='skills-lista'>
             <li className='skills-item'>React</li>
             <li className='skills-item'>Laravel</li>
-            <li className='skills-item'>Express</li>
-            <li className='skills-item'>MySQL</li>
-            <li className='skills-item'>Bootstrap</li>
           </ul>
 
           <h3 className='skills-titulo'>Otros Conocimientos</h3>
           <ul className='skills-lista'>
             <li className='skills-item'>GitHub</li>
             <li className='skills-item'>Modelamiento de bases de datos</li>
+            <li className='skills-item'>MySQL</li>
+            <li className='skills-item'>Bootstrap</li>
             <li className='skills-item'>Conocimiento matemático</li>
           </ul>
           <ul className='skills-lista'>
