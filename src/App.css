@@ -16,17 +16,14 @@ div.presentacion-container{
   text-align: center;
   animation-name: presentacion-move;
   animation-duration: 2s;
-  -webkit-box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
-  -moz-box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
-  box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
   border-radius: 10%;
   transition: all 0.5s ease
 }
 
 div.presentacion-container:hover{
-  -webkit-box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
-  -moz-box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
-  box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
+  -webkit-box-shadow: 3px 6px 69px 0px rgba(82, 26, 131, 0.93);
+  -moz-box-shadow: 3px 6px 69px 0px rgba(82, 26, 131, 0.93);
+  box-shadow: 3px 6px 69px 0px rgba(82, 26, 131, 0.93);
 }
 
 @keyframes presentacion-move {
@@ -180,17 +177,14 @@ div.contacto {
   text-align: center;
   animation-name: Down-Up;
   animation-duration: 1.5s;
-  -webkit-box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
-  -moz-box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
-  box-shadow: 3px 6px 39px 0px rgba(173, 201, 61, 0.725);
   border-radius: 10%;
   transition: all 0.5s ease
 }
 
 div.contacto:hover{
-  -webkit-box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
-  -moz-box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
-  box-shadow: 3px 6px 69px 0px rgba(173, 201, 61, 0.93);
+  -webkit-box-shadow: 3px 6px 69px 0px rgba(82, 26, 131, 0.93);
+  -moz-box-shadow: 3px 6px 69px 0px rgba(82, 26, 131, 0.93);
+  box-shadow: 3px 6px 69px 0px rgba(82, 26, 131, 0.93);
 }
 
 @keyframes Down-Up {
